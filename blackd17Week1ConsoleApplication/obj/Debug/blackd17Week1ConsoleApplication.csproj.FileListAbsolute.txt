@@ -1,0 +1,6 @@
+C:\Users\monkeycollectiv\Source\Repos\WeeklyCoding\blackd17Week1ConsoleApplication\obj\Debug\blackd17Week1ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\monkeycollectiv\Source\Repos\WeeklyCoding\blackd17Week1ConsoleApplication\obj\Debug\blackd17Week1ConsoleApplication.exe
+C:\Users\monkeycollectiv\Source\Repos\WeeklyCoding\blackd17Week1ConsoleApplication\bin\Debug\blackd17Week1ConsoleApplication.exe.config
+C:\Users\monkeycollectiv\Source\Repos\WeeklyCoding\blackd17Week1ConsoleApplication\bin\Debug\blackd17Week1ConsoleApplication.exe
+C:\Users\monkeycollectiv\Source\Repos\WeeklyCoding\blackd17Week1ConsoleApplication\bin\Debug\blackd17Week1ConsoleApplication.pdb
+C:\Users\monkeycollectiv\Source\Repos\WeeklyCoding\blackd17Week1ConsoleApplication\obj\Debug\blackd17Week1ConsoleApplication.pdb
