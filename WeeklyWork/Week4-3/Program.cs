@@ -107,7 +107,7 @@ namespace Week4_3
                     WriteLine($"Weight\t\t\t{theBmi.Weight,7:####.00} Pounds");
                     break;
                 case MeasurementSystem.Metric:
-                    WriteLine($"Height\t\t\t{theBmi.Height,7:####.00} Centimeters");
+                    WriteLine($"Height\t\t\t{theBmi.Height,7:####.00} Meters");
                     WriteLine($"Weight\t\t\t{theBmi.Weight,7:####.00} Kilograms");
                     break;
                 default:

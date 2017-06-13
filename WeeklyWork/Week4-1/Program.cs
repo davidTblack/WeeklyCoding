@@ -20,23 +20,11 @@ namespace Week4_1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            if (InputSeconds(out decimal userDecimal))
+            if (InputDecimal(out decimal userDecimal))
             {
                 WriteLine(Roman.DecimalToRoman(userDecimal, out string romanNumber) ? 
                     $"The decimal {userDecimal} can be converted to Roman Numeral {romanNumber}" 
                     : romanNumber);
-
-                //bool didItConvert = Roman.DecimalToRoman(userDecimal, out string romanNumber);
-
-                //if (didItConvert)
-                //{
-                //    WriteLine($"The decimal {userDecimal} can be converted to Roman Numeral {romanNumber}");
-                //}
-                //else
-                //{
-                //    WriteLine(romanNumber);
-                //}
-
             }
             ReadLine();
         }
@@ -46,12 +34,12 @@ namespace Week4_1
         /// </summary>
         /// <param name="d">Number in decimal format</param>
         /// <returns>True if valid input, false if invalid input</returns>
-        private static bool InputSeconds(out decimal d)
+        private static bool InputDecimal(out decimal d)
         {
             bool returnValue = true;
             d = 0;
 
-            WriteLine("Enter the number of seconds to convert.");
+            WriteLine("Enter the number to convert.");
            
             Write("Decimal value between 1 and 10:  ");
             returnValue = decimal.TryParse(ReadLine(), out d);
