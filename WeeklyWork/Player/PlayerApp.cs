@@ -11,10 +11,46 @@ namespace PlayerApp
     {
         static void Main(string[] args)
         {
-            int[] testArray = { 300, 100, 200, 400, 600 };
 
+            WriteLine("1".ToUpper());
+            int[] testArray = { 300, 100, 200, 400, 600 };
+            string myName = "David";
+            switch (myName)
+            {
+                case "fish":
+                    break;
+                default:
+                    break;
+            }
+            if (myName == "no")
+            {
+                ;
+            }
+            
+                
+                int f = 7, s = 15; f = s % 2;
+            if (f != 1)
+            {
+                f = 0;
+                s = 0;
+            }
+            else if (f == 2)
+            {
+                f = 10;
+                s = 10;
+            }
+            else
+            {
+                f = 1;
+                s = 1;
+            }
+            WriteLine(" " + f + " " + s);
+
+            int aValue = 100,
+                bvalue = 7;
+            WriteLine(aValue > bvalue + 100 ? 1000 : 2000);
             Write(testArray[2] + testArray[4]);
-            ReadLine();
+                ReadLine();
 
             string ln,
                 fn,

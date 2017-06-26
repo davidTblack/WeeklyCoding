@@ -259,3 +259,11 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/WeeklyWork/Player
+/WeeklyWork/Player/Properties/AssemblyInfo.cs
+/WeeklyWork/Player/Properties
+/WeeklyWork/Player/PlayerApp.csproj
+/WeeklyWork/Player/PlayerApp.cs
+/WeeklyWork/Player/Player.cs
+/WeeklyWork/Player/App.config
+/WeeklyWork/Player
