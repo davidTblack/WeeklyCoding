@@ -11,7 +11,14 @@ namespace PlayerApp
     {
         static void Main(string[] args)
         {
+            //var myHolder = 1;
+            //myHolder = "Strings for fun"; //error
 
+            //dynamic myHolder2 = 2;
+            //WriteLine(myHolder2);
+            //myHolder2 = "Strings are wonderful";
+            //WriteLine(myHolder2);
+            //ReadLine();
             WriteLine("1".ToUpper());
             int[] testArray = { 300, 100, 200, 400, 600 };
             string myName = "David";

@@ -18,8 +18,7 @@ namespace Week6_4
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            int arrayCounter = 0,
-                countOutOfRange = 0,
+            int countOutOfRange = 0,
                 countInvalid = 0,
                 tempInt;
             string userInput;
