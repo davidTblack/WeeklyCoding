@@ -10,6 +10,13 @@ using System.Windows.Forms;
 
 namespace Week8_4
 {
+    /// <summary>
+    /// Programming exercises for week 8 - CITP180 Summer 2017; this is CHAPTER 9
+    /// Exercise 4 is an application to create a form that moved based on location
+    /// values the user enters
+    /// Author: David Black
+    /// Date: 7/11/2017
+    /// </summary>
     public partial class frmMagicMover : Form
     {
         public frmMagicMover()
@@ -47,7 +54,7 @@ namespace Week8_4
             int screenWidth = SystemInformation.VirtualScreen.Width;
             int screenHeight = SystemInformation.VirtualScreen.Height;
             
-            if (newWindowLocation.X > 0 && newWindowLocation.Y > 0)
+            if (newWindowLocation.X > -1 && newWindowLocation.Y > -1)
             {
                 if (Width + newWindowLocation.X > screenWidth)
                 {

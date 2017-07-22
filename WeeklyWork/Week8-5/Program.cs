@@ -10,7 +10,7 @@ namespace Week8_5
     {
         /// <summary>
         /// Programming exercises for week 8 - CITP180 Summer 2017; this is CHAPTER 9
-        /// Exercise 5 is an application to ...
+        /// Exercise 5 is an application to Create a trip Calculater of MPG
         /// Author: David Black
         /// Date: 7/11/2017
         /// </summary>
@@ -19,7 +19,7 @@ namespace Week8_5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmTripCalculator());
         }
     }
 }

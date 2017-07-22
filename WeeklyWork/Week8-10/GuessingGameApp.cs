@@ -10,7 +10,8 @@ namespace Week8_10
     {
         /// <summary>
         /// Programming exercises for week 8 - CITP180 Summer 2017; this is CHAPTER 9
-        /// Exercise 10 is an application to ...
+        /// Exercise 10 is an application to create a guessing game app that has the
+        /// user enter numbers to guess the randomly selected number.
         /// Author: David Black
         /// Date: 7/11/2017
         /// </summary>

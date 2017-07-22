@@ -35,6 +35,9 @@
             this.lblGuess = new System.Windows.Forms.Label();
             this.txtGuess = new System.Windows.Forms.TextBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.lblWinMessage = new System.Windows.Forms.Label();
+            this.lblLastGuess = new System.Windows.Forms.Label();
+            this.txtLastGuess = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblGuessCount
@@ -103,6 +106,32 @@
             this.lblTitle.TabIndex = 6;
             this.lblTitle.Text = "Guess the Number!";
             // 
+            // lblWinMessage
+            // 
+            this.lblWinMessage.AutoSize = true;
+            this.lblWinMessage.Location = new System.Drawing.Point(23, 147);
+            this.lblWinMessage.Name = "lblWinMessage";
+            this.lblWinMessage.Size = new System.Drawing.Size(0, 17);
+            this.lblWinMessage.TabIndex = 7;
+            // 
+            // lblLastGuess
+            // 
+            this.lblLastGuess.AutoSize = true;
+            this.lblLastGuess.Location = new System.Drawing.Point(342, 46);
+            this.lblLastGuess.Name = "lblLastGuess";
+            this.lblLastGuess.Size = new System.Drawing.Size(80, 17);
+            this.lblLastGuess.TabIndex = 8;
+            this.lblLastGuess.Text = "Last Guess";
+            // 
+            // txtLastGuess
+            // 
+            this.txtLastGuess.BackColor = System.Drawing.SystemColors.Menu;
+            this.txtLastGuess.Enabled = false;
+            this.txtLastGuess.Location = new System.Drawing.Point(347, 77);
+            this.txtLastGuess.Name = "txtLastGuess";
+            this.txtLastGuess.Size = new System.Drawing.Size(75, 22);
+            this.txtLastGuess.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnGuess;
@@ -110,6 +139,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnReset;
             this.ClientSize = new System.Drawing.Size(426, 212);
+            this.Controls.Add(this.txtLastGuess);
+            this.Controls.Add(this.lblLastGuess);
+            this.Controls.Add(this.lblWinMessage);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.txtGuess);
             this.Controls.Add(this.lblGuess);
@@ -133,6 +165,9 @@
         private System.Windows.Forms.Label lblGuess;
         private System.Windows.Forms.TextBox txtGuess;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblWinMessage;
+        private System.Windows.Forms.Label lblLastGuess;
+        private System.Windows.Forms.TextBox txtLastGuess;
     }
 }
 
