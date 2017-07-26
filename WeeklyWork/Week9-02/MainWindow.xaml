@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Week9_02"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="252.4" Width="328.6">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="113,105,0,0" VerticalAlignment="Top" Width="50" Height="22">
+            <ComboBoxItem Content="S"/>
+            <ComboBoxItem Content="M"/>
+            <ComboBoxItem Content="L" ContentStringFormat=""/>
+            <ComboBoxItem Content="XL"/>
+        </ComboBox>
+        <Label x:Name="lblSize" Content="Size" HorizontalAlignment="Left" Margin="41,102,0,0" VerticalAlignment="Top" Height="26" Width="37"/>
+        <Label x:Name="lblTitle" Content="T-Shirt Orders" HorizontalAlignment="Left" Margin="83,45,0,0" VerticalAlignment="Top" Height="26" Width="95"/>
+        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Height="23" Margin="113,154,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50"/>
+        <Label x:Name="lblQuantity" Content="Quantity" HorizontalAlignment="Left" Margin="41,151,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="322"/>
+
     </Grid>
 </Window>
